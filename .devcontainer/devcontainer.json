@@ -25,5 +25,12 @@
 		"idf.toolsPath": "/opt/esp",
 		"idf.gitPath": "/usr/bin/git"
 	},
-	"runArgs": ["--privileged"]
+	"runArgs": [
+		"--privileged"
+	],
+	"portsAttributes": {
+		"17202": {
+			"label": "17220106"
+		}
+	}
 }
